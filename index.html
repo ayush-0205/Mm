@@ -2,36 +2,50 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>You’re Truly Special</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>You're Special</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <h1>🌸 You're Truly Special 🌸</h1>
-
-  <div class="compliments">
-    <p>You light up every room you enter.</p>
-    <p>Your presence is poetry in motion.</p>
-    <p>You’re the calm in chaos, the smile in silence.</p>
-    <p>Your kindness, your smile — it’s all magic ✨</p>
+  <!-- Page 1: Welcome with Heart and Flowers -->
+  <div class="page" id="page1">
+    <div class="flower-container"></div>
+    <div class="heart-center" onclick="revealPage2()">
+      <div class="heart"></div>
+      <p class="touch-text">Touch this heart gently...</p>
+    </div>
   </div>
 
-  <div class="shayari">
-    <h2>💌 Mere Dil Se Kuch Alfaaz...</h2>
-    <p>
-      Teri aankhon mein chhupe kuch raaz hain purane,<br>
-      Ijaazat de, to unhe main padhna chahta hoon.<br>
-      Har lamha tujh mein hi dhoon du main apne fasane,<br>
-      Bas tu keh de, main tujh mein hi basna chahta hoon.
-    </p>
+  <!-- Page 2: Compliments -->
+  <div class="page hidden" id="page2">
+    <div class="content">
+      <h1>You're Truly Special 💖</h1>
+      <p>You light up every room you enter.</p>
+      <p>Your presence is poetry in motion.</p>
+      <p>You’re the calm in chaos, the smile in silence.</p>
+      <p>Your kindness, your smile — it’s all magic ✨</p>
+      <button onclick="revealPage3()">Next ➡️</button>
+    </div>
+  </div>
 
-    <p>
-      Teri aankhon ki nami mujhse ab sahan nahi hoti,<br>
-      Tere kehne se pehle hi har dard pee jaaunga.<br>
-      Tere chehre ki hansi rahe har roz suhaani,<br>
-      Warna sach kahun... main jeete jee mar jaaunga.
-    </p>
+  <!-- Page 3: Shayari -->
+  <div class="page hidden" id="page3">
+    <div class="content shayari">
+      <h2>💌 Mere Dil Se Kuch Alfaaz...</h2>
+      <p>
+        Teri aankhon mein chhupe kuch raaz hain purane,<br>
+        Ijaazat de, to unhe main padhna chahta hoon.<br>
+        Har lamha tujh mein hi dhoon du main apne fasane,<br>
+        Bas tu keh de, main tujh mein hi basna chahta hoon.
+      </p>
+      <p>
+        Teri aankhon ki nami mujhse ab sahan nahi hoti,<br>
+        Tere kehne se pehle hi har dard pee jaaunga.<br>
+        Tere chehre ki hansi rahe har roz suhaani,<br>
+        Warna sach kahun... main jeete jee mar jaaunga.
+      </p>
+    </div>
   </div>
 
   <script src="script.js"></script>
