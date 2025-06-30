@@ -144,3 +144,15 @@ button:hover {
   from { opacity: 0; transform: translateY(30px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+.desktop-note {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.95rem;
+  color: #cccccc;
+  font-style: italic;
+  text-align: center;
+  z-index: 10;
+}
