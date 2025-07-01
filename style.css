@@ -157,3 +157,34 @@ button:hover {
   z-index: 9999;
   pointer-events: none;
 }
+
+/* YouTube Section Styles */
+.youtube-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.yt-caption {
+  font-size: 1.1rem;
+  color: #ffcdd2;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.yt-button {
+  padding: 12px 24px;
+  background-color: #ff0000;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-shadow: 0 4px 12px rgba(255, 0, 0, 0.4);
+  transition: background 0.3s ease, transform 0.2s ease;
+  display: inline-block;
+}
+
+.yt-button:hover {
+  background-color: #cc0000;
+  transform: scale(1.05);
+}
