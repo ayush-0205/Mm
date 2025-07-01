@@ -158,7 +158,6 @@ button:hover {
   pointer-events: none;
 }
 
-/* YouTube Section Styles */
 .youtube-section {
   text-align: center;
   margin-top: 40px;
@@ -166,7 +165,7 @@ button:hover {
 
 .yt-caption {
   font-size: 1.1rem;
-  color: #ffcdd2;
+  color: #fff5f7; /* light romantic white-pink */
   font-style: italic;
   margin-bottom: 10px;
 }
