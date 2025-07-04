@@ -187,3 +187,8 @@ button:hover {
   background-color: #cc0000;
   transform: scale(1.05);
 }
+
+.yt-button {
+  display: block;
+  margin: 10px 0; /* space between links */
+}
